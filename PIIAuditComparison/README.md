@@ -236,5 +236,10 @@ Senior TDM Consultant | SQL Developer | Python Enthusiast | 11+ years of experie
 GitHub: [deepika-evolve](https://github.com/Deepika-evolve)
 
 ---
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
+
+-----
 
 *Built to solve a real problem. Work in progress — unit testing underway.*
