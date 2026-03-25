@@ -156,7 +156,7 @@ python OrchestrationEngine/app.py
 - Click **Run Drift Detection**
 - Open Output Folder when done
 
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/266b46a1-ebc4-47ba-82be-b055d4247bd4" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/266b46a1-ebc4-47ba-82be-b055d4247bd4" />
 
 ### Option 2 — Command Line
 
@@ -173,6 +173,12 @@ python OrchestrationEngine/main.py
 | `PII_Audit_Drift_Detection_<timestamp>.xlsx` | Full Excel report with drift details |
 | `PII_Audit_Drift_Detection_<timestamp>.html` | HTML summary report |
 | `drift_detection_<timestamp>.log` | Execution log |
+
+<img width="967" height="613" alt="image" src="https://github.com/user-attachments/assets/cc821e6f-2171-424e-bc71-b247f9012f03" />
+<img width="963" height="340" alt="image" src="https://github.com/user-attachments/assets/5386a0ff-7516-478c-9898-4ac36f72ad32" />
+<img width="975" height="351" alt="image" src="https://github.com/user-attachments/assets/e1b69cd2-35b3-48d0-a45d-15a5996c5788" />
+<img width="975" height="401" alt="image" src="https://github.com/user-attachments/assets/0cb74ca2-42e2-4439-b49f-95aa151d3dc1" />
+<img width="976" height="377" alt="image" src="https://github.com/user-attachments/assets/f1c2242f-0e41-471e-8e6d-fd8dc73dc966" />
 
 ---
 
