@@ -156,7 +156,7 @@ python OrchestrationEngine/app.py
 - Click **Run Drift Detection**
 - Open Output Folder when done
 
-<img width="950" height="714" alt="image" src="https://github.com/user-attachments/assets/266b46a1-ebc4-47ba-82be-b055d4247bd4" />
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/266b46a1-ebc4-47ba-82be-b055d4247bd4" />
 
 ### Option 2 — Command Line
 
