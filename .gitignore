@@ -1,5 +1,6 @@
 # Output reports
-output/
+output/*
+!output/.gitkeep
 
 # Logs
 *.log
