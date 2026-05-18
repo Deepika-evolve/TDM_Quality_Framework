@@ -268,7 +268,8 @@ After validation:
 - Before masking — hash is recomputed and compared
 - Any modification to the hash_audit blocks the masking run
 
-[Screenshot: error when hash is tampered]
+<img width="400" height="212" alt="image" src="https://github.com/user-attachments/assets/39ae67e7-2471-43ac-a3ef-7a9924c96a7c" />
+
 
 ### Input change detection
 
