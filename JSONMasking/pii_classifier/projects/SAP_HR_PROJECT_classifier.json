@@ -1,0 +1,143 @@
+{
+  "project_pii": {
+    "biography_group": {
+      "fields": [
+        "biography"
+      ],
+      "mask_function": "mask_generic",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-07"
+    },
+    "internal_notes_group": {
+      "fields": [
+        "internal_notes"
+      ],
+      "mask_function": "mask_generic",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-07"
+    },
+    "sap_id_group": {
+      "fields": [
+        "sap_id"
+      ],
+      "mask_function": "mask_url",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-07"
+    },
+    "code_group": {
+      "fields": [
+        "code"
+      ],
+      "mask_function": "mask_alphanumeric",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-09"
+    }
+  },
+  "project_not_pii": {
+    "audit_tags": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-07"
+    },
+    "period": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-07"
+    },
+    "title": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-07"
+    },
+    "budget": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-07"
+    },
+    "service": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-07"
+    },
+    "key": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-07"
+    },
+    "errors": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-08"
+    },
+    "internal_product_code": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-09"
+    },
+    "error_response_code": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-09"
+    },
+    "employeeid": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-09"
+    },
+    "userid": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-09"
+    },
+    "orderid": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-09"
+    },
+    "user_id": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-09"
+    },
+    "id": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-09"
+    },
+    "request_id": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-09"
+    },
+    "accountname": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-09"
+    },
+    "_id": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-09"
+    },
+    "platform": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-09"
+    },
+    "tags": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-10"
+    },
+    "value": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-10"
+    },
+    "special_chars": {
+      "reason": "project_not_pii",
+      "decided_by": "Deepika",
+      "decided_on": "2026-04-10"
+    }
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "exclude_fields": {
+    "companyname": {
+      "reason": "Organisation name \u00e2\u20ac\u201d not personal data",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "company_name": {
+      "reason": "Organisation name \u00e2\u20ac\u201d not personal data",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "orgname": {
+      "reason": "Organisation name",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "org_name": {
+      "reason": "Organisation name",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "organisationname": {
+      "reason": "Organisation name",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "organization": {
+      "reason": "Organisation name",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "departmentname": {
+      "reason": "Department identifier \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "department": {
+      "reason": "Department identifier",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "department_name": {
+      "reason": "Department identifier",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "division": {
+      "reason": "Division name \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "businessunit": {
+      "reason": "Business unit \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "business_unit": {
+      "reason": "Business unit \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "projectname": {
+      "reason": "Project identifier \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "project_name": {
+      "reason": "Project identifier",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "projectid": {
+      "reason": "Project system ID \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "project_id": {
+      "reason": "Project system ID",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "status": {
+      "reason": "System status field",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "recordstatus": {
+      "reason": "System status field",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "activestatus": {
+      "reason": "System status field",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "isactive": {
+      "reason": "System flag",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "isdeleted": {
+      "reason": "System flag",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "enabled": {
+      "reason": "System flag",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "createdat": {
+      "reason": "System generated timestamp",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "created_at": {
+      "reason": "System generated timestamp",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "updatedat": {
+      "reason": "System generated timestamp",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "updated_at": {
+      "reason": "System generated timestamp",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "createdon": {
+      "reason": "System generated timestamp",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "modifiedon": {
+      "reason": "System generated timestamp",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "lastupdated": {
+      "reason": "System generated timestamp",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "last_updated": {
+      "reason": "System generated timestamp",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "currency": {
+      "reason": "Currency code \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "currencycode": {
+      "reason": "Currency code \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "currency_code": {
+      "reason": "Currency code",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "language": {
+      "reason": "Language code \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "locale": {
+      "reason": "Locale setting \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "timezone": {
+      "reason": "Timezone \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "recordtype": {
+      "reason": "System record type",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "record_type": {
+      "reason": "System record type",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "objecttype": {
+      "reason": "System object type",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "type": {
+      "reason": "System type field \u00e2\u20ac\u201d context dependent",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "category": {
+      "reason": "Category \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "subcategory": {
+      "reason": "Subcategory \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "version": {
+      "reason": "System version field",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "source": {
+      "reason": "System source field",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "sourcesystem": {
+      "reason": "Source system name",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "environment": {
+      "reason": "Environment name",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "region": {
+      "reason": "Business region \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "registrationDate": {
+      "reason": "Business region \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "newsletter": {
+      "reason": "Business region \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "orderId": {
+      "reason": "Business region \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "product": {
+      "reason": "Business region \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    },
+    "price": {
+      "reason": "Business region \u00e2\u20ac\u201d not personal",
+      "decided_by": "system",
+      "decided_on": "2026-03-31"
+    }
+  }
+}

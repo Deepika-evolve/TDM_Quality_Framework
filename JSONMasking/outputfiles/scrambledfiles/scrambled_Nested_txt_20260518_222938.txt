@@ -1,0 +1,11 @@
+{
+  "user_id": "1001",
+  "profile": {
+    "name": "Bhavika Kohli",
+    "email": "bhavika@test.com"
+  },
+  "location": {
+    "city": "Jhansi",
+    "zip": "407360"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "global_pii": {
+    "name_group": {
+      "fields": [
+        "name",
+        "firstname",
+        "first_name",
+        "lastname",
+        "last_name",
+        "fullname",
+        "full_name",
+        "displayname",
+        "display_name",
+        "username",
+        "middlename",
+        "middle_name",
+        "preferredname"
+      ],
+      "mask_function": "mask_name"
+    },
+    "email_group": {
+      "fields": [
+        "email",
+        "emailid",
+        "email_id",
+        "emailaddress",
+        "email_address",
+        "e_mail",
+        "workemail",
+        "work_email",
+        "personalemail",
+        "personal_email"
+      ],
+      "mask_function": "mask_email"
+    },
+    "phone_group": {
+      "fields": [
+        "phone",
+        "mobile",
+        "contact",
+        "phonenumber",
+        "phone_number",
+        "mobilenumber",
+        "mobile_number",
+        "telephone",
+        "homephone",
+        "home_phone",
+        "workphone",
+        "work_phone",
+        "fax"
+      ],
+      "mask_function": "mask_phone"
+    },
+    "dob_group": {
+      "fields": [
+        "dob",
+        "dateofbirth",
+        "date_of_birth",
+        "birthdate",
+        "birth_date",
+        "birthday",
+        "birth_day",
+        "dateofbirth",
+        "borndate"
+      ],
+      "mask_function": "mask_dob"
+    },
+    "address_group": {
+      "fields": [
+        "street",
+        "address",
+        "streetaddress",
+        "street_address",
+        "addressline1",
+        "address_line1",
+        "addressline2",
+        "address_line2",
+        "houseaddress",
+        "residential_address",
+        "permanentaddress"
+      ],
+      "mask_function": "mask_address"
+    },
+    "city_group": {
+      "fields": [
+        "city",
+        "city_code",
+        "citycode",
+        "town",
+        "locality",
+        "district",
+        "suburb"
+      ],
+      "mask_function": "mask_city"
+    },
+    "country_group": {
+      "fields": [
+        "country",
+        "nationality",
+        "countrycode",
+        "country_code",
+        "citizenship",
+        "country_of_birth"
+      ],
+      "mask_function": "mask_country"
+    },
+    "postal_group": {
+      "fields": [
+        "postalcode",
+        "zipcode",
+        "zip_code",
+        "zip",
+        "postalcode",
+        "postal_code",
+        "pincode",
+        "pin_code",
+        "postcode",
+        "post_code"
+      ],
+      "mask_function": "mask_postal"
+    },
+    "national_id_group": {
+      "fields": [
+        "ssn",
+        "socialsecuritynumber",
+        "social_security_number",
+        "nationalid",
+        "national_id",
+        "nationalidnumber",
+        "nin",
+        "taxid",
+        "tax_id",
+        "taxnumber",
+        "tax_number"
+      ],
+      "mask_function": "mask_number"
+    },
+    "passport_group": {
+      "fields": [
+        "passport",
+        "passportnumber",
+        "passport_number",
+        "passportid",
+        "passport_id"
+      ],
+      "mask_function": "mask_alphanumeric"
+    },
+    "aadhaar_group": {
+      "fields": [
+        "aadhaar",
+        "aadhaarnumber",
+        "aadhaar_number",
+        "uid",
+        "uidai"
+      ],
+      "mask_function": "mask_number"
+    },
+    "pan_group": {
+      "fields": [
+        "pan",
+        "pannumber",
+        "pan_number",
+        "pancard",
+        "pan_card"
+      ],
+      "mask_function": "mask_alphanumeric"
+    },
+    "driverlicense_group": {
+      "fields": [
+        "drivinglicense",
+        "driving_license",
+        "driverlicense",
+        "driver_license",
+        "licensenumber",
+        "license_number",
+        "dl"
+      ],
+      "mask_function": "mask_alphanumeric"
+    },
+    "financial_group": {
+      "fields": [
+        "creditcard",
+        "credit_card",
+        "cardnumber",
+        "card_number",
+        "accountnumber",
+        "account_number",
+        "bankaccount",
+        "bank_account",
+        "iban",
+        "routingnumber",
+        "routing_number",
+        "cvv",
+        "cvv2"
+      ],
+      "mask_function": "mask_number"
+    },
+    "salary_group": {
+      "fields": [
+        "salary",
+        "income",
+        "earnings",
+        "compensation",
+        "ctc",
+        "annualsalary",
+        "annual_salary",
+        "monthlysalary",
+        "monthly_salary"
+      ],
+      "mask_function": "mask_number"
+    },
+    "ip_group": {
+      "fields": [
+        "ipaddress",
+        "ipaddress2",
+        "ipaddress3",
+        "ip_address",
+        "ip",
+        "ipv4",
+        "ipv6",
+        "clientip",
+        "client_ip"
+      ],
+      "mask_function": "mask_ip"
+    },
+    "location_group": {
+      "fields": [
+        "latitude",
+        "longitude",
+        "lat",
+        "lng",
+        "coordinates",
+        "geolocation",
+        "geo_location",
+        "location"
+      ],
+      "mask_function": "mask_generic"
+    },
+    "medical_group": {
+      "fields": [
+        "diagnosis",
+        "medical_condition",
+        "healthcondition",
+        "disease",
+        "prescription",
+        "medication",
+        "bloodgroup",
+        "blood_group",
+        "medicalhistory",
+        "medical_history",
+        "healthdata"
+      ],
+      "mask_function": "mask_generic"
+    },
+    "biometric_group": {
+      "fields": [
+        "fingerprint",
+        "facedata",
+        "face_data",
+        "retina",
+        "biometric",
+        "voiceprint",
+        "dna",
+        "genetic"
+      ],
+      "mask_function": "mask_generic"
+    },
+    "url_group": {
+    "fields": ["url", "uri", "href", "link", "self", "related",
+               "__deferred", "id", "nextlink", "deltalink"],
+    "mask_function": "mask_url"
+    },
+    "social_identity_group": {
+    "fields": ["username", "handle", "screenname", "screen_name",
+               "useralias", "user_alias", "displayhandle","twitterhandle"],
+    "mask_function": "mask_handle"
+    }
+  },
+  "global_not_pii": {}
+}
+
+

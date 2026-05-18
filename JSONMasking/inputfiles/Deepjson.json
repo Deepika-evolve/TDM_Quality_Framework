@@ -1,0 +1,42 @@
+{
+  "employeeId": "EMP001",
+  "level1": {
+    "name": "Deepika Mothilal",
+    "level2": {
+      "email": "deepika.mothilal@company.com",
+      "level3": {
+        "phone": "9876543210",
+        "level4": {
+          "address": {
+            "street": "123 Main Street",
+            "level5": {
+              "city": "Bangalore",
+              "level6": {
+                "country": "IN",
+                "level7": {
+                  "zipCode": "560001",
+                  "level8": {
+                    "dateOfBirth": "1985-05-15",
+                    "level9": {
+                      "ssn": "999-00-1234",
+                      "level10": {
+                        "ipAddress": "192.168.1.1",
+                        "level11": {
+                          "userId": "USR12345",
+                          "registrationDate": "2020-01-15",
+                          "isActive": true,
+                          "department": "TDM",
+                          "companyName": "CGI"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

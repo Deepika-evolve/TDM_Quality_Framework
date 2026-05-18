@@ -1,0 +1,42 @@
+{
+  "employeeId": "EMP001",
+  "level1": {
+    "name": "Bhavika Bhasin",
+    "level2": {
+      "email": "bhavika.bhasin@company.com",
+      "level3": {
+        "phone": "9819933867",
+        "level4": {
+          "address": {
+            "street": "123 Krishnan Road",
+            "level5": {
+              "city": "Amravati",
+              "level6": {
+                "country": "FR",
+                "level7": {
+                  "zipCode": "565775",
+                  "level8": {
+                    "dateOfBirth": "1985-08-31",
+                    "level9": {
+                      "ssn": "998-01-4645",
+                      "level10": {
+                        "ipAddress": "148.175.168.212",
+                        "level11": {
+                          "userId": "USR12345",
+                          "registrationDate": "2020-01-15",
+                          "isActive": true,
+                          "department": "TDM",
+                          "companyName": "CGI"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
