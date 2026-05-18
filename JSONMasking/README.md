@@ -177,7 +177,7 @@ python main.py
 Tool traverses all JSON documents and classifies every field.
 pii_audit_sheet.xlsx is generated in auditfiles/
 
-[Screenshot: sample pii_audit_sheet.xlsx]
+https://github.com/Deepika-evolve/TDM_Quality_Framework/blob/main/JSONMasking/outputfiles/auditfiles/pii_audit_sheet.xlsx 
 
 Fields are classified as:
 - Yes — detected as PII
