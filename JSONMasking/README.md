@@ -64,7 +64,8 @@ This is the foundation of a broader vision: source-agnostic, transparent, and go
 Architecture
 ## Architecture
 
-[Screenshot: folder structure showing all five engines]
+<img width="270" height="300" alt="image" src="https://github.com/user-attachments/assets/66b5a2af-eee4-43d4-8f1f-1bc389298420" />
+
 
 Five engines, one pipeline:
 
