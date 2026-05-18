@@ -32,3 +32,7 @@ focusing on simplicity, usability, and practical impact.
 **Deepika Mothilal**  
 Senior TDM Consultant | SQL Developer | Python Enthusiast | 11+ years of experience  
 GitHub: [deepika-evolve](https://github.com/Deepika-evolve)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
