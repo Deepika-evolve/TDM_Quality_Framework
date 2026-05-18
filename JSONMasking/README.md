@@ -41,7 +41,7 @@ scrabled JSON files + Consolidated validation report + validation report per inp
 
 ## Why This Tool
 
-This tool—JSONMasking—was built from real challenges in enterprise TDM projects and reflects a broader vision for source-agnostic, accountable data masking.
+This tool—JSONMasking—is built from real challenges in enterprise TDM projects and reflects a broader vision for source-agnostic, accountable data masking.
 
 Most enterprise masking tools focus on automating the masking process, but the quality of masking itself is often inconsistent. They lack strong PII analysis, provide limited transparency, and are difficult to validate or audit. As a result, organizations are left without clarity on what sensitive data was actually identified and how effectively it was masked.
 
