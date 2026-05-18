@@ -3,6 +3,12 @@
 An open source framework to automate common TDM tasks.  
 Built by practitioners, for practitioners.
 ----
+
+## Vision
+
+To build a modular framework that addresses real-world challenges in TDM,
+focusing on simplicity, usability, and practical impact.
+
 ## Current Release
 
 ## Module 2 — JSONMasking ✅
@@ -23,10 +29,6 @@ Designed to simplify drift analysis and improve confidence in masking workflows.
 
 ---
 
-Vision
-To build a modular framework that addresses real-world challenges in TDM,
-focusing on simplicity, usability, and practical impact.
-----
 ## Author
 
 **Deepika Mothilal**  
