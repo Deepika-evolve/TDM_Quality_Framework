@@ -5,7 +5,12 @@ Built by practitioners, for practitioners.
 ----
 ## Current Release
 
-### Module 1 — PIIAuditComparison ✅
+## Module 2 — JSONMasking ✅
+JSONMasking is a open source tool for masking JSON data with built-in governance, audit trail, and validation. The vision of this framework is true source agnosticism — decoupling PII governance and masking logic from data sources so that any input system can plug in without re-engineering the core pipeline.
+
+[View Module →](./JSONMasking/README.md)
+
+## Module 1 — PIIAuditComparison ✅
 
 Automates PII audit comparison between releases.
 • Detects schema drift across Database, Schema, Table, and Column levels

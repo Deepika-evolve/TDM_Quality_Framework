@@ -17,7 +17,6 @@ Table of Contents
 - [License](#License)
 
 
-Overview
 ## Overview
 
 TDM Quality Framework — JSONMasking is a open source tool for masking
@@ -40,10 +39,9 @@ Excel files, JSON files, JSONL files, TXT files containing JSON strings
 **Output**
 scrabled JSON files + Consolidated validation report + validation report per input file
 
-Why This Tool
 ## Why This Tool
 
-This tool—JSONMasking—was built from real challenges in enterprise TDM projects and reflects a broader vision for source-agnostic, accountable data masking.
+This tool—JSONMasking—is built from real challenges in enterprise TDM projects and reflects a broader vision for source-agnostic, accountable data masking.
 
 Most enterprise masking tools focus on automating the masking process, but the quality of masking itself is often inconsistent. They lack strong PII analysis, provide limited transparency, and are difficult to validate or audit. As a result, organizations are left without clarity on what sensitive data was actually identified and how effectively it was masked.
 
@@ -64,7 +62,8 @@ This is the foundation of a broader vision: source-agnostic, transparent, and go
 Architecture
 ## Architecture
 
-[Screenshot: folder structure showing all five engines]
+<img width="270" height="300" alt="image" src="https://github.com/user-attachments/assets/66b5a2af-eee4-43d4-8f1f-1bc389298420" />
+
 
 Five engines, one pipeline:
 
@@ -176,7 +175,7 @@ python main.py
 Tool traverses all JSON documents and classifies every field.
 pii_audit_sheet.xlsx is generated in auditfiles/
 
-[Screenshot: sample pii_audit_sheet.xlsx]
+https://github.com/Deepika-evolve/TDM_Quality_Framework/blob/main/JSONMasking/outputfiles/auditfiles/pii_audit_sheet.xlsx 
 
 Fields are classified as:
 - Yes — detected as PII
@@ -205,7 +204,9 @@ python main.py
 Tool validates approvals, generates a tamper-proof hash audit,
 runs masking, and generates a validation report.
 
-[Screenshot: validation report summary sheet]
+https://github.com/Deepika-evolve/TDM_Quality_Framework/tree/main/JSONMasking/outputfiles/validationfiles
+
+https://github.com/Deepika-evolve/TDM_Quality_Framework/tree/main/JSONMasking/outputfiles/scrambledfiles
 
 Output files:
 - scrambledfiles/ — masked JSON output
@@ -220,7 +221,7 @@ The audit trail grows with each project run.
 Source Adapters
 ## Source Adapters
 
-The tool is source agnostic. Set SOURCE_MODE in project_config.py.
+The tool is source agnostic. Set SOURCE_MODE in jm_config.py.
 
 ### Excel Adapter (SOURCE_MODE = 'excel')
 
@@ -245,7 +246,6 @@ Add a new class to adapters.py
 Add the mode to source_loader.py
 No other changes needed
 
-Governance Engine
 ## Governance Engine
 
 ### Approval validation — 7 checks
@@ -267,7 +267,8 @@ After validation:
 - Before masking — hash is recomputed and compared
 - Any modification to the hash_audit blocks the masking run
 
-[Screenshot: error when hash is tampered]
+<img width="600" height="212" alt="image" src="https://github.com/user-attachments/assets/39ae67e7-2471-43ac-a3ef-7a9924c96a7c" />
+
 
 ### Input change detection
 
@@ -284,7 +285,7 @@ After masking:
 - Next run — these fields auto-classified — no manual review needed
 - Bidirectional — decisions can be moved between pii and not_pii
 
-Masking Engine
+
 ## Masking Engine
 
 ### Masking functions
@@ -324,11 +325,10 @@ Before masking, each function validates the input pattern:
 Invalid inputs are returned as-is and flagged as
 'Invalid Input Data' in the validation report.
 
-Validation Report
+
 ## Validation Report
 
-[Screenshot: validation report summary sheet with colour coding]
-[Screenshot: validation report details sheet]
+https://github.com/Deepika-evolve/TDM_Quality_Framework/tree/main/JSONMasking/outputfiles/validationfiles
 
 Generated after every masking run in validationfiles/
 
@@ -371,7 +371,7 @@ Tested across 21 different JSON structures:
 | Mixed type arrays                   | ✅     |
 | JSONL — newline delimited           | ✅     |
 
-Configuration Reference
+
 ## Configuration Reference
 
 ### jm_config.py — tool level settings
@@ -401,7 +401,6 @@ Configuration Reference
 | PROJECT_ID           | Unique project identifier generated from projectname |
 
 
-Known Limitations
 ## Known Limitations
 
 These are documented design boundaries of Phase 1.0,
@@ -417,7 +416,6 @@ not bugs. Workarounds are provided where possible.
 | Function selection in audit | Re-classify in project  | 1.5       |
 | Name-email correlation      | Works for full name     | 1.5       |
 
-Roadmap
 ## Roadmap
 
 **Phase 1.5**
