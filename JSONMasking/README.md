@@ -205,6 +205,7 @@ Tool validates approvals, generates a tamper-proof hash audit,
 runs masking, and generates a validation report.
 
 https://github.com/Deepika-evolve/TDM_Quality_Framework/tree/main/JSONMasking/outputfiles/validationfiles
+
 https://github.com/Deepika-evolve/TDM_Quality_Framework/tree/main/JSONMasking/outputfiles/scrambledfiles
 
 Output files:
@@ -245,7 +246,6 @@ Add a new class to adapters.py
 Add the mode to source_loader.py
 No other changes needed
 
-Governance Engine
 ## Governance Engine
 
 ### Approval validation — 7 checks
@@ -285,7 +285,7 @@ After masking:
 - Next run — these fields auto-classified — no manual review needed
 - Bidirectional — decisions can be moved between pii and not_pii
 
-Masking Engine
+
 ## Masking Engine
 
 ### Masking functions
@@ -325,7 +325,7 @@ Before masking, each function validates the input pattern:
 Invalid inputs are returned as-is and flagged as
 'Invalid Input Data' in the validation report.
 
-Validation Report
+
 ## Validation Report
 
 https://github.com/Deepika-evolve/TDM_Quality_Framework/tree/main/JSONMasking/outputfiles/validationfiles
@@ -371,7 +371,7 @@ Tested across 21 different JSON structures:
 | Mixed type arrays                   | ✅     |
 | JSONL — newline delimited           | ✅     |
 
-Configuration Reference
+
 ## Configuration Reference
 
 ### jm_config.py — tool level settings
@@ -401,7 +401,6 @@ Configuration Reference
 | PROJECT_ID           | Unique project identifier generated from projectname |
 
 
-Known Limitations
 ## Known Limitations
 
 These are documented design boundaries of Phase 1.0,
@@ -417,7 +416,6 @@ not bugs. Workarounds are provided where possible.
 | Function selection in audit | Re-classify in project  | 1.5       |
 | Name-email correlation      | Works for full name     | 1.5       |
 
-Roadmap
 ## Roadmap
 
 **Phase 1.5**
