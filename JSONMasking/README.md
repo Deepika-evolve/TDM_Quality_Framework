@@ -37,7 +37,7 @@ so that any input system can plug in without re-engineering the core pipeline.
 Excel files, JSON files, JSONL files, TXT files containing JSON strings
 
 **Output**
-scrabled JSON files + Consolidated validation report + validation report per input file
+scrambled JSON files + Consolidated validation report + validation report per input file
 
 ## Why This Tool
 
@@ -350,7 +350,7 @@ Generated after every masking run in validationfiles/
 
 Columns: doc_id, path, key, original_value (partial masked),
 masked_value, original_type, masked_type, type_status,
-mask_status, is_pii, approved, approved_by, mask_function,suorce_file
+mask_status, is_pii, approved, approved_by, mask_function,source_file
 
 Supported JSON Formats
 ## Supported JSON Formats
