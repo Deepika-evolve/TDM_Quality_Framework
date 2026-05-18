@@ -206,7 +206,8 @@ python main.py
 Tool validates approvals, generates a tamper-proof hash audit,
 runs masking, and generates a validation report.
 
-[Screenshot: validation report summary sheet]
+https://github.com/Deepika-evolve/TDM_Quality_Framework/tree/main/JSONMasking/outputfiles/validationfiles
+https://github.com/Deepika-evolve/TDM_Quality_Framework/tree/main/JSONMasking/outputfiles/scrambledfiles
 
 Output files:
 - scrambledfiles/ — masked JSON output
@@ -221,7 +222,7 @@ The audit trail grows with each project run.
 Source Adapters
 ## Source Adapters
 
-The tool is source agnostic. Set SOURCE_MODE in project_config.py.
+The tool is source agnostic. Set SOURCE_MODE in jm_config.py.
 
 ### Excel Adapter (SOURCE_MODE = 'excel')
 
@@ -268,7 +269,7 @@ After validation:
 - Before masking — hash is recomputed and compared
 - Any modification to the hash_audit blocks the masking run
 
-<img width="400" height="212" alt="image" src="https://github.com/user-attachments/assets/39ae67e7-2471-43ac-a3ef-7a9924c96a7c" />
+<img width="600" height="212" alt="image" src="https://github.com/user-attachments/assets/39ae67e7-2471-43ac-a3ef-7a9924c96a7c" />
 
 
 ### Input change detection
@@ -329,8 +330,7 @@ Invalid inputs are returned as-is and flagged as
 Validation Report
 ## Validation Report
 
-[Screenshot: validation report summary sheet with colour coding]
-[Screenshot: validation report details sheet]
+https://github.com/Deepika-evolve/TDM_Quality_Framework/tree/main/JSONMasking/outputfiles/validationfiles
 
 Generated after every masking run in validationfiles/
 
