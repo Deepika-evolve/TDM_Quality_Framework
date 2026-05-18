@@ -17,7 +17,6 @@ Table of Contents
 - [License](#License)
 
 
-Overview
 ## Overview
 
 TDM Quality Framework — JSONMasking is a open source tool for masking
@@ -40,7 +39,6 @@ Excel files, JSON files, JSONL files, TXT files containing JSON strings
 **Output**
 scrabled JSON files + Consolidated validation report + validation report per input file
 
-Why This Tool
 ## Why This Tool
 
 This tool—JSONMasking—was built from real challenges in enterprise TDM projects and reflects a broader vision for source-agnostic, accountable data masking.
